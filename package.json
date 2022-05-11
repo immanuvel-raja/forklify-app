@@ -1,0 +1,21 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --out-dir ./dist"
+  },
+  "author": "Immanuvel Raja",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.26.10"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "fractional": "^1.0.0",
+    "parcel": "^1.12.4",
+    "regenerator-runtime": "^0.13.7"
+  }
+}
